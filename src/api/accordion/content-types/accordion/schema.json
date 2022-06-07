@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "accordions",
+  "info": {
+    "singularName": "accordion",
+    "pluralName": "accordions",
+    "displayName": "Article Accordion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "Accordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.accordion"
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    }
+  }
+}

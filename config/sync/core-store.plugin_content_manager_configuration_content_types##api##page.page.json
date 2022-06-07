@@ -1,0 +1,147 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::page.page",
+  "value": {
+    "uid": "api::page.page",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "shortName",
+      "defaultSortBy": "shortName",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "shortName": {
+        "edit": {
+          "label": "shortName",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "shortName",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "metadata": {
+        "edit": {
+          "label": "metadata",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "metadata",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contentSections": {
+        "edit": {
+          "label": "contentSections",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contentSections",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "shortName",
+        "metadata",
+        "slug"
+      ],
+      "editRelations": [],
+      "edit": [
+        [
+          {
+            "name": "shortName",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "metadata",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "contentSections",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

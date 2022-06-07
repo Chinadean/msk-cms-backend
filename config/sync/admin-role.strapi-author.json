@@ -1,0 +1,250 @@
+{
+  "name": "Author",
+  "code": "strapi-author",
+  "description": "Authors can manage the content they have created.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::global.global",
+      "properties": {
+        "fields": [
+          "metadata.metaTitle",
+          "metadata.metaDescription",
+          "metadata.shareImage",
+          "metadata.twitterCardType",
+          "metadata.twitterUsername",
+          "metaTitleSuffix",
+          "favicon",
+          "notificationBanner.text",
+          "notificationBanner.type",
+          "navbar.links.url",
+          "navbar.links.newTab",
+          "navbar.links.text",
+          "navbar.button.url",
+          "navbar.button.newTab",
+          "navbar.button.text",
+          "navbar.button.type",
+          "navbar.logo",
+          "footer.logo",
+          "footer.columns.title",
+          "footer.columns.links.url",
+          "footer.columns.links.newTab",
+          "footer.columns.links.text",
+          "footer.smallText"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::global.global",
+      "properties": {
+        "fields": [
+          "metadata.metaTitle",
+          "metadata.metaDescription",
+          "metadata.shareImage",
+          "metadata.twitterCardType",
+          "metadata.twitterUsername",
+          "metaTitleSuffix",
+          "favicon",
+          "notificationBanner.text",
+          "notificationBanner.type",
+          "navbar.links.url",
+          "navbar.links.newTab",
+          "navbar.links.text",
+          "navbar.button.url",
+          "navbar.button.newTab",
+          "navbar.button.text",
+          "navbar.button.type",
+          "navbar.logo",
+          "footer.logo",
+          "footer.columns.title",
+          "footer.columns.links.url",
+          "footer.columns.links.newTab",
+          "footer.columns.links.text",
+          "footer.smallText"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::global.global",
+      "properties": {
+        "fields": [
+          "metadata.metaTitle",
+          "metadata.metaDescription",
+          "metadata.shareImage",
+          "metadata.twitterCardType",
+          "metadata.twitterUsername",
+          "metaTitleSuffix",
+          "favicon",
+          "notificationBanner.text",
+          "notificationBanner.type",
+          "navbar.links.url",
+          "navbar.links.newTab",
+          "navbar.links.text",
+          "navbar.button.url",
+          "navbar.button.newTab",
+          "navbar.button.text",
+          "navbar.button.type",
+          "navbar.logo",
+          "footer.logo",
+          "footer.columns.title",
+          "footer.columns.links.url",
+          "footer.columns.links.newTab",
+          "footer.columns.links.text",
+          "footer.smallText"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::lead-form-submission.lead-form-submission",
+      "properties": {
+        "fields": [
+          "email",
+          "status",
+          "location"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::lead-form-submission.lead-form-submission",
+      "properties": {},
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::lead-form-submission.lead-form-submission",
+      "properties": {
+        "fields": [
+          "email",
+          "status",
+          "location"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::lead-form-submission.lead-form-submission",
+      "properties": {
+        "fields": [
+          "email",
+          "status",
+          "location"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::page.page",
+      "properties": {
+        "fields": [
+          "shortName",
+          "metadata.metaTitle",
+          "metadata.metaDescription",
+          "metadata.shareImage",
+          "metadata.twitterCardType",
+          "metadata.twitterUsername",
+          "contentSections",
+          "slug"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::page.page",
+      "properties": {
+        "fields": [
+          "shortName",
+          "metadata.metaTitle",
+          "metadata.metaDescription",
+          "metadata.shareImage",
+          "metadata.twitterCardType",
+          "metadata.twitterUsername",
+          "contentSections",
+          "slug"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::page.page",
+      "properties": {
+        "fields": [
+          "shortName",
+          "metadata.metaTitle",
+          "metadata.metaDescription",
+          "metadata.shareImage",
+          "metadata.twitterCardType",
+          "metadata.twitterUsername",
+          "contentSections",
+          "slug"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": [
+        "admin::is-creator"
+      ]
+    }
+  ]
+}
