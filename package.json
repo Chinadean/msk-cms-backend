@@ -14,6 +14,7 @@
   "dependencies": {
     "@mattie-bundle/strapi-plugin-search": "^1.0.0-alpha.3",
     "@mattie-bundle/strapi-provider-search-algolia": "^1.0.0-alpha.3",
+    "@offset-dev/strapi-calendar": "0.0.5",
     "@strapi/plugin-graphql": "^4.1.12",
     "@strapi/plugin-i18n": "4.1.12",
     "@strapi/plugin-seo": "^1.7.3",
