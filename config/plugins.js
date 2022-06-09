@@ -26,7 +26,13 @@ module.exports = ({ env }) => ({
   graphql: {
     enabled: true
   },
+  "custom-api": {
+    enabled: true,
+  },
   "import-export-entries": {
+    enabled: true,
+  },
+  publisher: {
     enabled: true,
   },
   navigation: {

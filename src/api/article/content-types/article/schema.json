@@ -26,12 +26,6 @@
         "audios"
       ]
     },
-    "audiences": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "plugin::navigation.audience",
-      "mappedBy": "article"
-    },
     "content": {
       "type": "component",
       "repeatable": true,
@@ -41,6 +35,21 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "plugin::users-permissions.user",
+      "inversedBy": "articles"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "articles"
+    },
+    "audiences": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::navigation.audience",
       "inversedBy": "articles"
     }
   }

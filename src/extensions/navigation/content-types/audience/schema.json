@@ -5,11 +5,13 @@
     "singularName": "audience",
     "pluralName": "audiences",
     "displayName": "Audience",
-    "name": "audience"
+    "name": "audience",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "comment": "Audience"
+    "comment": "Audience",
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -20,9 +22,9 @@
       "type": "uid",
       "targetField": "name"
     },
-    "article": {
+    "articles": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::article.article",
       "inversedBy": "audiences"
     }

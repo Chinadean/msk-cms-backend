@@ -7,13 +7,31 @@
       "action": "api::global.global.find"
     },
     {
-      "action": "api::lead-form-submission.lead-form-submission.create"
+      "action": "api::lead-form-submission.lead-form-submission.find"
+    },
+    {
+      "action": "api::lead-form-submission.lead-form-submission.findOne"
     },
     {
       "action": "api::page.page.find"
     },
     {
       "action": "api::page.page.findOne"
+    },
+    {
+      "action": "plugin::i18n.locales.listLocales"
+    },
+    {
+      "action": "plugin::navigation.navigation.render"
+    },
+    {
+      "action": "plugin::navigation.navigation.renderChild"
+    },
+    {
+      "action": "plugin::upload.content-api.find"
+    },
+    {
+      "action": "plugin::upload.content-api.findOne"
     },
     {
       "action": "plugin::users-permissions.auth.callback"
@@ -23,6 +41,12 @@
     },
     {
       "action": "plugin::users-permissions.auth.register"
+    },
+    {
+      "action": "plugin::users-permissions.role.find"
+    },
+    {
+      "action": "plugin::users-permissions.role.findOne"
     },
     {
       "action": "plugin::users-permissions.user.me"

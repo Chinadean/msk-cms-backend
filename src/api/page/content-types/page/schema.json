@@ -41,16 +41,17 @@
     "contentSections": {
       "type": "dynamiczone",
       "components": [
-        "sections.hero",
+        "sections.accordion",
         "sections.bottom-actions",
         "sections.feature-columns-group",
         "sections.feature-rows-group",
-        "sections.testimonials-group",
+        "sections.hero",
         "sections.large-video",
-        "sections.rich-text",
-        "sections.pricing",
         "sections.lead-form",
-        "sections.accordion"
+        "sections.pricing",
+        "sections.rich-text",
+        "sections.testimonials-group",
+        "sections.block-quote"
       ],
       "pluginOptions": {
         "i18n": {

@@ -48,6 +48,21 @@
           "sortable": true
         }
       },
+      "article": {
+        "edit": {
+          "label": "article",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Title"
+        },
+        "list": {
+          "label": "article",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -84,7 +99,6 @@
         "key",
         "createdAt"
       ],
-      "editRelations": [],
       "edit": [
         [
           {
@@ -96,6 +110,9 @@
             "size": 6
           }
         ]
+      ],
+      "editRelations": [
+        "article"
       ]
     }
   },
