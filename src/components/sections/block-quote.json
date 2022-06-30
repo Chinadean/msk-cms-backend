@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_block_quotes",
+  "info": {
+    "displayName": "Block quote",
+    "icon": "quote-left"
+  },
+  "options": {},
+  "attributes": {
+    "Primaryquote": {
+      "type": "text"
+    }
+  }
+}
