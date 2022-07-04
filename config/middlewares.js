@@ -10,15 +10,22 @@ module.exports = [
           // from cdn.jsdelivr.net.
           "script-src": ["'self'", "cdn.jsdelivr.net", "blob:"],
           upgradeInsecureRequests: null,
+          'frame-ancestors': null,
         },
       },
+      frameguard: false,
     },
   },
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
-  'strapi::body',
+  {
+    name: 'strapi::body',
+    config: {
+      includeUnparsed: true
+    },
+  },
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
