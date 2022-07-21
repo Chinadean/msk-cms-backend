@@ -1,14 +1,17 @@
 module.exports = [
   'strapi::errors',
   {
-    name: "strapi::security",
+    name: 'strapi::security',
     config: {
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
           // Enable the download of the Monaco editor
           // from cdn.jsdelivr.net.
-          "script-src": ["'self'", "cdn.jsdelivr.net", "blob:"],
+          'connect-src': ['\'self\'', 'https:'],
+          'img-src': ['\'self\'', 'data:', 'blob:', process.env.STORAGE_URL, process.env.STORAGE_CDN_URL],
+          'media-src': ['\'self\'', 'data:', 'blob:', process.env.STORAGE_URL, process.env.STORAGE_CDN_URL],
+          'script-src': ['\'self\'', 'cdn.jsdelivr.net', 'blob:'],
           upgradeInsecureRequests: null,
           'frame-ancestors': null,
         },
@@ -29,5 +32,5 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-  "plugin::request-id.request-id",
+  'plugin::request-id.request-id',
 ];

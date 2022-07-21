@@ -1,0 +1,336 @@
+[
+  {
+    "category": {
+      "name": "Categories",
+      "slug": "category",
+      "description": "",
+      "types": [
+        "post",
+        "news"
+      ],
+      "hierarchical": true,
+      "rest_base": "categories",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "post_tag": {
+      "name": "Tags",
+      "slug": "post_tag",
+      "description": "",
+      "types": [
+        "post",
+        "mec-events"
+      ],
+      "hierarchical": false,
+      "rest_base": "tags",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/tags"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "nav_menu": {
+      "name": "Navigation Menus",
+      "slug": "nav_menu",
+      "description": "",
+      "types": [
+        "nav_menu_item"
+      ],
+      "hierarchical": false,
+      "rest_base": "menus",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/menus"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "newstags": {
+      "name": "News Tags",
+      "slug": "newstags",
+      "description": "",
+      "types": [
+        "news"
+      ],
+      "hierarchical": false,
+      "rest_base": "newstags",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/newstags"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "product_cat": {
+      "name": "Product categories",
+      "slug": "product_cat",
+      "description": "",
+      "types": [
+        "product"
+      ],
+      "hierarchical": true,
+      "rest_base": "product_cat",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/product_cat"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "product_tag": {
+      "name": "Product tags",
+      "slug": "product_tag",
+      "description": "",
+      "types": [
+        "product"
+      ],
+      "hierarchical": false,
+      "rest_base": "product_tag",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/product_tag"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "mec_category": {
+      "name": "Categories",
+      "slug": "mec_category",
+      "description": "",
+      "types": [
+        "mec-events"
+      ],
+      "hierarchical": true,
+      "rest_base": "mec_category",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/mec_category"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "mp-event_category": {
+      "name": "Event categories",
+      "slug": "mp-event_category",
+      "description": "",
+      "types": [
+        "mp-event"
+      ],
+      "hierarchical": true,
+      "rest_base": "mp-event_category",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/mp-event_category"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "mp-event_tag": {
+      "name": "Event tags",
+      "slug": "mp-event_tag",
+      "description": "",
+      "types": [
+        "mp-event"
+      ],
+      "hierarchical": false,
+      "rest_base": "mp-event_tag",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/mp-event_tag"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "media_tag": {
+      "name": "Media Tags",
+      "slug": "media_tag",
+      "description": "",
+      "types": [
+        "attachment"
+      ],
+      "hierarchical": false,
+      "rest_base": "media_tag",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/media_tag"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "mec_speaker": {
+      "name": "Speakers",
+      "slug": "mec_speaker",
+      "description": "",
+      "types": [
+        "mec-events"
+      ],
+      "hierarchical": false,
+      "rest_base": "mec_speaker",
+      "rest_namespace": "wp/v2",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp:items": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/mec_speaker"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  }
+]

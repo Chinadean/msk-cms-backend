@@ -1,0 +1,444 @@
+[
+  [
+    {
+      "id": 73,
+      "count": 0,
+      "description": "",
+      "link": "https://msk.org.au/category/a-z-category/",
+      "name": "A-Z Category",
+      "slug": "a-z-category",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "acf": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories/73"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/posts?categories=73"
+          },
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/news?categories=73"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "count": 0,
+      "description": "",
+      "link": "https://msk.org.au/category/announcements/",
+      "name": "Announcements",
+      "slug": "announcements",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "acf": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories/60"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/posts?categories=60"
+          },
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/news?categories=60"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "count": 0,
+      "description": "",
+      "link": "https://msk.org.au/category/audio/",
+      "name": "Audio",
+      "slug": "audio",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "acf": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories/17"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/posts?categories=17"
+          },
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/news?categories=17"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "count": 0,
+      "description": "",
+      "link": "https://msk.org.au/category/gallery/",
+      "name": "Gallery",
+      "slug": "gallery",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "acf": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories/18"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/posts?categories=18"
+          },
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/news?categories=18"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "count": 159,
+      "description": "",
+      "link": "https://msk.org.au/category/health-info/",
+      "name": "Health Information",
+      "slug": "health-info",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "acf": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories/59"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/posts?categories=59"
+          },
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/news?categories=59"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "count": 0,
+      "description": "",
+      "link": "https://msk.org.au/category/image/",
+      "name": "Image",
+      "slug": "image",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "acf": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories/19"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/posts?categories=19"
+          },
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/news?categories=19"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "count": 183,
+      "description": "",
+      "link": "https://msk.org.au/category/msk-articles/",
+      "name": "MSK articles",
+      "slug": "msk-articles",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "acf": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories/61"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/posts?categories=61"
+          },
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/news?categories=61"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 162,
+      "count": 11,
+      "description": "",
+      "link": "https://msk.org.au/category/msk-kids-blogs/",
+      "name": "MSK Kids Blogs",
+      "slug": "msk-kids-blogs",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "acf": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories/162"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/posts?categories=162"
+          },
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/news?categories=162"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "count": 1,
+      "description": "",
+      "link": "https://msk.org.au/category/news/",
+      "name": "News",
+      "slug": "news",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "acf": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories/58"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/posts?categories=58"
+          },
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/news?categories=58"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "count": 0,
+      "description": "",
+      "link": "https://msk.org.au/category/uncategorized/",
+      "name": "Uncategorized",
+      "slug": "uncategorized",
+      "taxonomy": "category",
+      "parent": 0,
+      "meta": [],
+      "acf": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories/1"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/posts?categories=1"
+          },
+          {
+            "href": "https://msk.org.au/wp-json/wp/v2/news?categories=1"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]
+]
