@@ -12,8 +12,10 @@
   },
   "devDependencies": {
     "@babel/core": "7.0.0",
-    "@devexpress/dx-core": "3.0.3",
+    "@devexpress/dx-core": "3.0.4",
     "@devexpress/dx-scheduler-core": "3.0.3",
+    "@mui/material": "5.4.1",
+    "@mui/system": "5.4.1",
     "@strapi/design-system": "1.1.1",
     "@strapi/helper-plugin": "4.1.12",
     "@strapi/icons": "0.0.1-alpha.73",
@@ -64,7 +66,7 @@
     "strapi-provider-upload-azure-storage": "^2.1.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Dean Walker"
   },
   "strapi": {
     "uuid": "65c8acb8-f8de-4f16-9c0a-89e35e92a1ef"

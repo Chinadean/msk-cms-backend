@@ -1,4 +1,4 @@
-const fs = require("fs")
+const fs = require('fs');
 
 module.exports = ({ env }) => ({
   connection: {
@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
       user: env('DATABASE_USERNAME', 'survey@msksurvey'),
       password: env('DATABASE_PASSWORD', 'MySQL@Bones1968!'),
       ssl: {
-        ca: fs.readFileSync("./DigiCertGlobalRootG2.crt.pem"),
+        ca: fs.readFileSync('./DigiCertGlobalRootG2.crt.pem'),
         rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
       },
     },

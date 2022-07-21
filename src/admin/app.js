@@ -1,7 +1,7 @@
 import AuthLogo from './extensions/msk-logo.png';
 import MenuLogo from './extensions/msk-logo.png';
 import favicon from './extensions/favicon.ico';
-import HomePageLogo from './extensions/homepage-logo.png'
+import HomePageLogo from './extensions/homepage-logo.png';
 
 
 export default {
@@ -24,7 +24,7 @@ export default {
     // Replace the Strapi logo in the main navigation
     menu: {
       logo: MenuLogo,
-      defaultMessage: "Workwise Dashboard"
+      defaultMessage: 'Workwise Dashboard'
     },
     // Override or extend the theme
     theme: {
