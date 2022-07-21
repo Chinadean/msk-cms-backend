@@ -11,9 +11,10 @@
     "cs": "config-sync"
   },
   "devDependencies": {
-    "@babel/core": "7.0.0",
+    "@babel/core": "7.13.16",
     "@devexpress/dx-core": "3.0.4",
     "@devexpress/dx-scheduler-core": "3.0.3",
+    "@mui/x-date-pickers": "5.0.0-alpha.7",
     "@mui/material": "5.4.1",
     "@mui/system": "5.4.1",
     "@strapi/design-system": "1.1.1",
@@ -23,8 +24,9 @@
     "axios": "0.24.0",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
-    "eslint": "3.0.0",
+    "eslint": "4.12.1",
     "formik": "2.2.6",
+    "graphql": "15.4.0",
     "immer": "9.0.6",
     "koa": "2.13.1",
     "koa-body": "4.2.0",
@@ -43,7 +45,7 @@
     "redux": "4",
     "style-loader": "^3.3.1",
     "styled-components": "5.3.3",
-    "webpack": "5.0.0"
+    "webpack": "5.20.0"
   },
   "dependencies": {
     "@mattie-bundle/strapi-plugin-search": "^1.0.0-alpha.3",
@@ -72,7 +74,7 @@
     "uuid": "65c8acb8-f8de-4f16-9c0a-89e35e92a1ef"
   },
   "engines": {
-    "node": "14.19.1",
+    "node": "14.20.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
