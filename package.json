@@ -1,7 +1,6 @@
 {
   "name": "backend",
-  "private": true,
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "MSK CMS Backend",
   "scripts": {
     "develop": "strapi develop",
@@ -14,19 +13,18 @@
     "@babel/core": "7.13.16",
     "@devexpress/dx-core": "3.0.4",
     "@devexpress/dx-scheduler-core": "3.0.3",
-    "@mui/x-date-pickers": "5.0.0-alpha.7",
     "@mui/material": "5.4.1",
     "@mui/system": "5.4.1",
+    "@mui/x-date-pickers": "5.0.0-alpha.7",
     "@strapi/design-system": "1.1.1",
     "@strapi/helper-plugin": "4.1.12",
     "@strapi/icons": "0.0.1-alpha.73",
     "@strapi/utils": "4.1.12",
-    "axios": "0.24.0",
+    "axios": "^0.24.0",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
     "eslint": "4.12.1",
     "formik": "2.2.6",
-    "graphql": "15.4.0",
     "immer": "9.0.6",
     "koa": "2.13.1",
     "koa-body": "4.2.0",
@@ -65,7 +63,8 @@
     "strapi-plugin-request-id": "^1.0.0",
     "strapi-plugin-sitemap": "^2.0.8",
     "strapi-plugin-wysiwyg-tui-editor": "^4.0.1",
-    "strapi-provider-upload-azure-storage": "^2.1.0"
+    "strapi-provider-upload-azure-storage": "^2.1.0",
+    "strapi-stripe": "^2.1.4"
   },
   "author": {
     "name": "Dean Walker"

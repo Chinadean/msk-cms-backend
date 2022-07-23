@@ -38,7 +38,7 @@ module.exports = ({ env }) => ({
     }
   },
   graphql: {
-    enabled: true
+    enabled: true,
   },
   'custom-api': {
     enabled: true,
